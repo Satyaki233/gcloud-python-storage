@@ -15,7 +15,7 @@ def list_blobs(bucket_name):
 
     # Note: The call returns a response only when the iterator is consumed.
     for blob in blobs:
-        print(blob.name)
+        print('\n\t',blob.name)
 
 
 # [END storage_list_files]

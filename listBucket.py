@@ -9,7 +9,7 @@ def list_buckets():
     print(buckets)
 
     for bucket in buckets:
-        print(bucket.name )
+        print("\n\t",bucket.name )
 
 
 # [END storage_list_buckets]
